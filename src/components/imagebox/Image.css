@@ -1,0 +1,81 @@
+.Image__Imagecontainer{
+    z-index: -100;
+    margin-top: 10px;
+    margin-right: 100%;
+    width: 661px;
+    position: relative;
+}
+
+.Image__background {
+  height: 200.5653076171875px;
+  width: 564px;
+  left: 229px;
+  top: 545px;
+  border-radius: 20px;
+}
+.Image__background svg {
+  margin-top: -70px !important;
+  margin-left: -20px;
+}
+
+.Image__background1 {
+  height: 200.5653076171875px;
+  width: 464px;
+  left: 229px;
+  top: 545px;
+  border-radius: 20px;
+}
+
+.Image__background1 svg {
+  margin-left: 90%;
+  margin-top: -50px !important;
+}
+
+.Image__card {
+    position: absolute;
+  height: 380px;
+  width: 593px;
+  left: 560px;
+  top: 65px;
+  border-radius: 20px;
+  background: #f4f4f4d2;
+  z-index: 100;
+  margin-top: -16%;
+  margin-left: -89%;
+}
+
+.Image__cardImage1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.Image__cardImage2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+@media (max-width: 999px) {
+  .Image__card {
+ 
+  margin-top: -25%;
+  margin-left: -98%;
+}
+
+.Image__background svg {
+  margin-top: -200px !important;
+  margin-left: -100px;
+}
+.Image__background1 svg {
+  margin-left: 74%;
+  margin-top: -90px !important;
+}
+
+
+
+
+}
+
